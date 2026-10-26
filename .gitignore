@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local Android SDK and generated build outputs
+android/local.properties
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+
+# Release signing material must stay outside source control
+*.jks
+*.keystore
+*.p12
+play-store/upload-keys/
