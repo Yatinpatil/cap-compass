@@ -3,7 +3,7 @@
 ## App identity
 
 - **App name:** CAP Compass
-- **Application ID:** `com.capcompass.app` — check availability and register it in Play Console before creating the app. Package names are permanent after publication.
+- **Application ID:** `com.capcompass.app` — confirmed available and registered in Play Console. Package names are permanent after publication.
 - **Category:** Education
 - **Default language:** English (United States)
 - **Suggested launch market:** India; confirm the countries and regions in Play Console.

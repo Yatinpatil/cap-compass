@@ -15,7 +15,7 @@
 
 ## Required before upload
 
-- [ ] Confirm `com.capcompass.app` is available and create the app in the intended Play Console developer account.
+- [x] Confirm `com.capcompass.app` is available and create the app in the intended Play Console developer account (confirmed by the user).
 - [ ] Create an RSA upload key, store a secure backup outside this repository, and enroll in Play App Signing. Never commit the keystore or passwords.
 - [ ] Set `CAP_COMPASS_UPLOAD_STORE_FILE`, `CAP_COMPASS_UPLOAD_STORE_PASSWORD`, `CAP_COMPASS_UPLOAD_KEY_ALIAS` and `CAP_COMPASS_UPLOAD_KEY_PASSWORD` in the build environment, then run `npm run android:bundle`.
 - [ ] Publish `public/privacy-policy.html` at a public, non-geofenced HTTPS URL and enter that URL in Play Console. Add a live support email to the store listing; the privacy policy points users to that contact.
